@@ -43,7 +43,7 @@ const locizeOptions = {
 
 const envUseLocize = !!process.env.USE_LOCIZE;
 const envApiKeyAvailable = !!process.env.LOCIZE_API_KEY;
-const DEFAULT_LANGUAGE = 'en-US';
+const DEFAULT_LANGUAGE = 'zh-CN';
 
 function initI18n(
   detection = detectionOptions,

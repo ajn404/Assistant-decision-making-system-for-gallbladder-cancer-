@@ -4,6 +4,7 @@
 基于react的组件代码
 # ./platform/i18n
 国际化
+关于语言：url+/?lgn=zh可自动使用中文组件
 # ./platform/viewer
 前端
 # ./extensions
