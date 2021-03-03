@@ -8,6 +8,7 @@ import { hot } from 'react-hot-loader/root';
 
 import OHIFCornerstoneExtension from '@ohif/extension-cornerstone';
 
+
 import {
   SnackbarProvider,
   ModalProvider,

@@ -26,8 +26,8 @@
   "RleTransferSyntaxAccepted": true,
   "UnknownSopClassAccepted": false,
   "DicomScpTimeout": 30,
-
-  "RemoteAccessAllowed": true,
+  
+  "RemoteAccessAllowed": false,
   "SslEnabled": false,
   "SslCertificate": "certificate.pem",
   "AuthenticationEnabled": false,

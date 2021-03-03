@@ -14,14 +14,14 @@ const AboutContent = () => {
   const itemsPreset = () => {
     return [
       {
-        name: t('Repository URL'),
-        value: 'https://github.com/OHIF/Viewers/',
-        link: 'https://github.com/OHIF/Viewers/',
+        name: t('私有仓库'),
+            value: 'https://github.com/ajn404/Assistant-decision-making-system-for-gallbladder-cancer-',
+            link: 'https://github.com/ajn404/Assistant-decision-making-system-for-gallbladder-cancer-',
       },
       {
-        name: t('Latest Master Commits'),
-        value: 'https://github.com/OHIF/Viewers/commits/master',
-        link: 'https://github.com/OHIF/Viewers/commits/master',
+        name: t('学习资料'),
+          value: 'https://docs.ohif.org/',
+          link: 'https://docs.ohif.org/',
       },
       {
         name: 'Version Number',
@@ -32,11 +32,11 @@ const AboutContent = () => {
         value: process.env.BUILD_NUM,
       },
       {
-        name: t('Browser'),
+        name: t('浏览器'),
         value: `${capitalize(name)} ${version}`,
       },
       {
-        name: t('OS'),
+        name: t('操作系统'),
         value: os,
       },
     ];
