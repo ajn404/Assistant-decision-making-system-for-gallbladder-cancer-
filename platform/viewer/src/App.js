@@ -166,7 +166,7 @@ class App extends Component {
       UIModalService,
       MeasurementService,
     } = servicesManager.services;
-
+    // UINotificationService.show('Hello from the other side 👋');
     if (this._userManager) {
       return (
         <ErrorBoundary context="App">
