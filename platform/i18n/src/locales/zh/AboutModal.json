@@ -1,1 +1,14 @@
-{}
+{
+  "Browser": "浏览器",
+  "Build Number": "Build Number",
+  "Latest Master Commits": "Latest Master Commits",
+  "More details": "More details",
+  "Name": "Name",
+  "OHIF Viewer - About": "胆道肿瘤辅助决策系统相关信息",
+  "OS": "操作系统",
+  "Report an issue": "发布issue",
+  "Repository URL": "源码",
+  "Value": "Value",
+  "Version Information": "版本信息",
+  "Visit the forum": "查看说明文档"
+}
