@@ -22,7 +22,7 @@ export default {
 
     const showLabellingDialog = (props, measurementData) => {
       if (!UIDialogService) {
-        console.warn('Unable to show dialog; no UI Dialog Service available.');
+        console.warn('对话框不可用，dialog ui服务不可用');
         return;
       }
 
