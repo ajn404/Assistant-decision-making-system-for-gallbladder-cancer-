@@ -33,7 +33,8 @@ function Header(props) {
         onClick: () =>
           show({
             content: AboutContent,
-            title: t('OHIF Viewer - About'),
+            // title: t('OHIF Viewer - About'),
+            title: '关于系统',
           }),
       },
       {
@@ -44,7 +45,8 @@ function Header(props) {
         onClick: () =>
           show({
             content: UserPreferences,
-            title: t('User Preferences'),
+            // title: t('User Preferences'),
+            title: '用户偏好',
           }),
       },
     ];
