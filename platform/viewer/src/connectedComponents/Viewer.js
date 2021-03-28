@@ -315,7 +315,7 @@ class Viewer extends Component {
         <div className="FlexboxLayout">
           {/* LEFT */}
           <ErrorBoundaryDialog context="LeftSidePanel">
-            <SidePanel from="left" isOpen={this.state.isLeftSidePanelOpen}>
+            <SidePanel from="right" isOpen={this.state.isLeftSidePanelOpen}>
               {VisiblePanelLeft ? (
                 <VisiblePanelLeft
                   viewports={this.props.viewports}
@@ -343,7 +343,7 @@ class Viewer extends Component {
 
           {/* RIGHT */}
           <ErrorBoundaryDialog context="RightSidePanel">
-            <SidePanel from="right" isOpen={this.state.isRightSidePanelOpen}>
+            <SidePanel from="left" isOpen={this.state.isRightSidePanelOpen}>
               {VisiblePanelRight && (
                 <VisiblePanelRight
                   isOpen={this.state.isRightSidePanelOpen}
