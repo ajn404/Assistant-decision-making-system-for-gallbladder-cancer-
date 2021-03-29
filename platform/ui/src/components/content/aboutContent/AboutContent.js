@@ -15,22 +15,24 @@ const AboutContent = () => {
     return [
       {
         name: t('私有仓库'),
-            value: 'https://github.com/ajn404/Assistant-decision-making-system-for-gallbladder-cancer-',
-            link: 'https://github.com/ajn404/Assistant-decision-making-system-for-gallbladder-cancer-',
+        value:
+          'https://github.com/ajn404/Assistant-decision-making-system-for-gallbladder-cancer-',
+        link:
+          'https://github.com/ajn404/Assistant-decision-making-system-for-gallbladder-cancer-',
       },
       {
         name: t('学习资料'),
-          value: 'https://docs.ohif.org/',
-          link: 'https://docs.ohif.org/',
+        value: 'https://docs.ohif.org/',
+        link: 'https://docs.ohif.org/',
       },
       {
-        name: 'Version Number',
+        name: '版本号',
         value: process.env.VERSION_NUMBER,
       },
-      {
-        name: t('Build Number'),
-        value: process.env.BUILD_NUM,
-      },
+      // {
+      //   name: t('Build Number'),
+      //   value: process.env.BUILD_NUM,
+      // },
       {
         name: t('浏览器'),
         value: `${capitalize(name)} ${version}`,
@@ -88,7 +90,8 @@ const AboutContent = () => {
         </a>
       </div>
       <div>
-        <h3>{t('Version Information')}</h3>
+        {/*<h3>{t('Version Information')}</h3>*/}
+        <h3>版本信息</h3>
         <table className="table table-responsive">
           <thead>
             <tr>
