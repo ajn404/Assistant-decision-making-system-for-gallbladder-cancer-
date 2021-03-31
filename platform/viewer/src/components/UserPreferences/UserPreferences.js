@@ -12,17 +12,17 @@ import './UserPreferences.styl';
 
 const tabs = [
   {
-    name: 'Hotkeys',
+    name: '热键',
     Component: HotkeysPreferences,
     customProps: {},
   },
   {
-    name: 'General',
+    name: '通用',
     Component: GeneralPreferences,
     customProps: {},
   },
   {
-    name: 'Window Level',
+    name: '窗口水平',
     Component: WindowLevelPreferences,
     customProps: {},
   },

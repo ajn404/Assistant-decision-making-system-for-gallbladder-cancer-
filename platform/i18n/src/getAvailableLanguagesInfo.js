@@ -1,4 +1,7 @@
 const languagesMap = {
+  zh: '中文',
+  'zh-CN': 'Chinese (China)',
+  'zh-TW': 'Chinese (Taiwan)',
   ar: 'Arabic',
   am: 'Amharic',
   bg: 'Bulgarian',
@@ -51,9 +54,7 @@ const languagesMap = {
   tr: 'Turkish',
   uk: 'Ukrainian',
   vi: 'Vietnamese',
-  zh: 'Chinese',
-  'zh-CN': 'Chinese (China)',
-  'zh-TW': 'Chinese (Taiwan)',
+
 };
 
 export default function getAvailableLanguagesInfo(locales) {

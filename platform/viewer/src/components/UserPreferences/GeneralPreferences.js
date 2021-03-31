@@ -1,4 +1,4 @@
-import React, { useState, useSelector } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import i18n from '@ohif/i18n';
@@ -8,13 +8,6 @@ import { useTranslation } from 'react-i18next';
 
 import './GeneralPreferences.styl';
 
-/**
- * General Preferences tab
- * It renders the General Preferences content
- *
- * @param {object} props component props
- * @param {function} props.onClose
- */
 function GeneralPreferences({ onClose }) {
   const { t } = useTranslation('UserPreferencesModal');
   const snackbar = useSnackbarContext();
@@ -45,7 +38,7 @@ function GeneralPreferences({ onClose }) {
       <div className="GeneralPreferences">
         <div className="language">
           <label htmlFor="language-select" className="languageLabel">
-            Language
+            语言
           </label>
           <LanguageSwitcher
             language={language}

@@ -9,7 +9,7 @@ function OHIFLogo() {
       target="_blank"
       rel="noopener noreferrer"
       className="header-brand"
-      href="https://ajn404.github.io/log.github.io/2021/03/22/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/bishe/"
+      href="https://ajn404.github.io/log.github.io/"
     >
       <Icon name="ohif-logo" className="header-logo-image" />
       {/* Logo text would fit smaller displays at two lines:
