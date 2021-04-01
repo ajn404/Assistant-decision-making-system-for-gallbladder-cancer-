@@ -37,6 +37,7 @@ class Tooltip extends React.Component {
     } = this.props;
 
     const outerStyle = {
+      backgroundColor: '#263340',
       top: positionTop,
       left: positionLeft,
       ...style,

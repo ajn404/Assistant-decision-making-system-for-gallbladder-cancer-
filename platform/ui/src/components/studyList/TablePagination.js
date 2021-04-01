@@ -11,7 +11,6 @@ class TablePagination extends PureComponent {
   };
 
   static propTypes = {
-    /* Values to show in "Rows per page" select dropdown */
     pageOptions: PropTypes.array,
     rowsPerPage: PropTypes.number.isRequired,
     currentPage: PropTypes.number.isRequired,
