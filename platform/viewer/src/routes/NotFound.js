@@ -13,7 +13,7 @@ export default function NotFound({ message = 'Sorry, this page does not exist.',
         <h4>{message}</h4>
         {showGoBackButton && context.appConfig.showStudyList && (
           <h5>
-            <Link to={'/'}>Go back to the Study List</Link>
+            <Link to={'/'}>返回研究列表</Link>
           </h5>
         )}
       </div>
