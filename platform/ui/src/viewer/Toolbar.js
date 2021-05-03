@@ -97,6 +97,12 @@ function getDefaultButtonData() {
       className: 'imageViewerCommand',
       icon: 'trash',
     },
+    {
+      id: 'clearTools',
+      title: 'Clear tools',
+      className: 'imageViewerCommand',
+      icon: 'trash',
+    },
   ];
   return buttonData;
 }

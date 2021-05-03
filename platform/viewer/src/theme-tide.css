@@ -42,15 +42,15 @@
     --input-placeholder-color: #d3d3d3;
 
 
-    --table-hover-color: #2c363f;
+    --table-hover-color: #765432;
     --table-text-primary-color: #ffffff;
-    --table-text-primary-color: #ffffff;
+    /*--table-text-primary-color: #ffffff;*/
 
     /*--table-text-primary-color: #00a4d9;*/
 
     --table-text-secondary-color: #91b9cd;
 
-    --large-numbers-color:#6FBDE2;
+    /*--large-numbers-color:#6FBDE2;*/
 
     --state-error: #FFCCCC;
     --state-error-border: #FFCCCC;

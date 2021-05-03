@@ -227,7 +227,8 @@ StudyList.propTypes = {
 
 StudyList.defaultProps = {};
 
-function TableRow(props) {
+function
+TableRow(props) {
   const {
     AccessionNumber,
     isHighlighted,
@@ -245,7 +246,7 @@ function TableRow(props) {
 
   const largeRowTemplate = (
     <tr
-      onClick={() => handleClick(StudyInstanceUID)}
+      onClick={() => handleClick(StudyInstanceUID)} 
       className={classNames({ active: isHighlighted })}
     >
       <td className={classNames({ 'empty-value': !PatientName })}>

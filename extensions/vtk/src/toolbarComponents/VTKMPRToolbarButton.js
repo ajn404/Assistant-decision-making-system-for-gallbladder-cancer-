@@ -11,7 +11,7 @@ let isVisible = true;
 const _isDisplaySetReconstructable = (viewportSpecificData = {}, activeViewportIndex) => {
   if (!viewportSpecificData[activeViewportIndex]) {
     return false;
-  };
+  }
 
   const { displaySetInstanceUID, StudyInstanceUID } = viewportSpecificData[
     activeViewportIndex
@@ -49,7 +49,7 @@ const _isDisplaySetReconstructable = (viewportSpecificData = {}, activeViewportI
     const instanceMetadataControl = cornerstone.metaData.get('instance', imageIdControl)
 
     if (!instanceMetadataControl ||
-      instanceMetadataControl === undefined ||
+instanceMetadataControl === undefined ||
       !instanceMetadataControl.ImagePositionPatient ||
       instanceMetadataControl.ImagePositionPatient === undefined) {
       // if ImagePositionPatient is missing, skip the 4D datasets check.
