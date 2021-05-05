@@ -86,7 +86,7 @@ const definitions = [
   */
   {
     id: 'changeSlabThickness',
-    label: 'Slab Thickness',
+    label: '板坯厚度',
     icon: 'soft-tissue',
     CustomComponent: SlabThicknessToolbarComponent,
     commandName: 'setSlabThickness',
@@ -129,7 +129,7 @@ const definitions = [
   },
   {
     id: '2DMPR',
-    label: '2D MPR',
+    label: '可视化',
     icon: 'cube',
     //
     CustomComponent: VTKMPRToolbarButton,

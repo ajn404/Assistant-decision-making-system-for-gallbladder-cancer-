@@ -15,9 +15,6 @@ const OHIFVTKViewport = asyncComponent(() =>
 );
 
 const vtkExtension = {
-  /**
-   * Only required property. Should be a unique value across all extensions.
-   */
   id: 'vtk',
   version,
 

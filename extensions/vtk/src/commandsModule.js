@@ -35,7 +35,6 @@ const commandsModule = ({ commandsManager, UINotificationService }) => {
         return apis[activeViewportIndex];
       }
     }
-
     const displaySet = viewportSpecificData[activeViewportIndex];
     let api;
     if (!api) {

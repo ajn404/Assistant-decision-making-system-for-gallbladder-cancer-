@@ -11,7 +11,6 @@ const VTKViewport = props => {
     const { setViewportActive, viewportIndex, activeViewportIndex } = props;
 
     if (viewportIndex !== activeViewportIndex) {
-      // set in Connected
       setViewportActive();
     }
   });
